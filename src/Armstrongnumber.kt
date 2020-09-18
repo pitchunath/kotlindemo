@@ -22,6 +22,6 @@ class Armstrongnumber {
 }
 fun main(){
     var lambda :(String,String)-> String ={s1,s2 -> (StringBuilder().append(s1).append(s2)).toString()}
-    lambda("hello","pitchu")
+    println(lambda("hello","pitchu"))
     println(Armstrongnumber().armstrong(153))
 }
