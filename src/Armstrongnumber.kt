@@ -15,9 +15,9 @@ class Armstrongnumber {
            sum += (Math.pow(it.toDouble(), (numlist.size).toDouble())).toInt()
        }
        if(sum==num)
-           println("yes it is ")
+           println("yes it is a armstrong number")
        else
-           println("no it is not")
+           println("no it is not a armstrong number")
    }
 }
 fun main(){
